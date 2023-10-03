@@ -22,10 +22,16 @@ const SignIn = () => {
       </div>
       <div className="Registration">
         <form action="">
-          <label htmlFor="login">Логин</label>
-          <input type="text" id="login" />
-          <label htmlFor="password">Пароль</label>
-          <input type="password" id="password" />
+          <div className="center">
+            <label htmlFor="login">Логин</label>
+            <input type="text" id="login" />
+          </div>
+          <div className="center">
+            <label style={{ marginTop: "14px" }} htmlFor="password">
+              Пароль
+            </label>
+            <input type="password" id="password" />
+          </div>
           <Link className="enter" to="/">
             ВОЙТИ
           </Link>

@@ -1,1 +1,195 @@
 @import "../../variables";
+.SignUp {
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 110px 0px 44px;
+  gap: 60px;
+  .Logo {
+    margin-top: 131px;
+    .LogoImg {
+      width: 100%;
+      max-width: 122px;
+      height: 100%;
+      max-height: 185px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+      }
+    }
+    h2 {
+      color: $tertiary;
+      font-family: $font;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 26px;
+      text-align: center;
+    }
+    p {
+      color: $fourth;
+      text-align: center;
+      font-family: $font;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: 80px;
+      text-align: center;
+      span {
+        color: $eighth;
+      }
+    }
+  }
+  .Registration {
+    width: 100%;
+    max-width: 453px;
+    .registration {
+      color: $tertiary;
+      font-family: $font;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: 48px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 4px;
+      text-decoration: none;
+      transform: translateX(61px);
+      span {
+        font-weight: 700;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      background: $primary;
+      box-shadow: 0px 5px 16px 4px rgba(0, 0, 0, 0.25);
+      margin: auto;
+      margin-top: 39px;
+      padding: 46px 41px 22px 40px;
+      h3 {
+        color: $tertiary;
+        font-family: $font;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+      }
+      input {
+        color: $tertiary;
+        font-family: $font;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 7px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $seventh;
+        margin-top: 36px;
+        &::placeholder {
+          color: $seventh;
+          font-family: $font;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .receive_code {
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid $tertiary;
+        background: $primary;
+        height: 37px;
+        flex-shrink: 0;
+        color: $fourth;
+        font-family: $font;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 0.4s;
+        &:hover {
+          background-color: $fourth;
+          color: $primary;
+        }
+      }
+      .enter {
+        border-radius: 20px;
+        background: $tertiary;
+        border: 1px solid $tertiary;
+        width: 100%;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: $font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 11px 89px 11px 87px;
+        text-decoration: none;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 39px;
+        &:hover {
+          color: $tertiary;
+          background-color: transparent;
+        }
+      }
+      p {
+        color: $seventh;
+        font-family: $font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 15px;
+      }
+      .checkbox1 {
+        display: flex;
+        gap: 9px;
+        margin-top: 12px;
+        p {
+          color: $fourth;
+          font-family: $font;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .checkbox2 {
+        display: flex;
+        gap: 9px;
+        margin-top: 24px;
+        p {
+          color: $fourth;
+          font-family: $font;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
