@@ -1,0 +1,133 @@
+@import "../../variables";
+.SignIn {
+  border: 2px solid red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 131px 70px 0 44px;
+  gap: 60px;
+  .Logo {
+    .LogoImg {
+      width: 100%;
+      max-width: 122px;
+      height: 100%;
+      max-height: 185px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+      }
+    }
+    h2 {
+      color: $tertiary;
+      font-family: $font;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 26px;
+      text-align: center;
+    }
+    p {
+      color: $fourth;
+      text-align: center;
+      font-family: $font;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: 80px;
+      text-align: center;
+      span {
+        color: $eighth;
+      }
+    }
+  }
+  .Registration {
+    width: 100%;
+    max-width: 494px;
+    height: 100%;
+    max-height: 325px;
+    margin: auto;
+    margin-top: 211px;
+    border-radius: 10px;
+    border: 2px solid $tertiary;
+    background: $nineth;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 29px 18px 18px 148px;
+      width: 100%;
+      label {
+        color: $tertiary;
+        font-family: $font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        &:nth-of-type(2) {
+          margin-top: 14px;
+        }
+      }
+      input {
+        border: 1px solid $tertiary;
+        background: $primary;
+        width: 100%;
+        max-width: 219px;
+        height: 37px;
+        flex-shrink: 0;
+        margin-top: 7px;
+        outline: $tertiary;
+        padding-left: 5px;
+        color: $tertiary;
+        font-family: $font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .enter {
+        border-radius: 20px;
+        background: $tertiary;
+        border: 1px solid $tertiary;
+        width: 100%;
+        max-width: 219px;
+        height: 37px;
+        flex-shrink: 0;
+        margin-top: 56px;
+        color: #fff;
+        font-family: $font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 11px 89px 11px 87px;
+        text-decoration: none;
+        transition: all 0.4s;
+        &:hover {
+          color: $tertiary;
+          background-color: transparent;
+        }
+      }
+      .registration {
+        color: $tertiary;
+        font-family: $font;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 42px;
+        text-align: end;
+        text-decoration: none;
+      }
+    }
+  }
+}

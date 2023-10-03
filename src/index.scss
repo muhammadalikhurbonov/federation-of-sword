@@ -1,0 +1,19 @@
+@import "./variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    @media screen and (min-width: 1440px) {
+      width: 1440px;
+      margin: auto;
+    }
+    .Container {
+      border: 2px solid red;
+      @media screen and (min-width: 1440px) {
+        margin: auto;
+        width: 1440px;
+      }
+    }
+  }
+}
