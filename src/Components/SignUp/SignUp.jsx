@@ -70,6 +70,7 @@ const SignUp = () => {
               данного сервиса
             </p>
           </div>
+          
         </form>
       </div>
     </div>
